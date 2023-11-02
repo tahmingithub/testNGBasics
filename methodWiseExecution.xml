@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/tahmin/eclipse-workspace/testNGBasicsBatch17/src/test/java/class01/priority.java">
+        <classes>
+            <class name="class01.priority">
+                <methods>
+                    <include name="Atest"/>
+                    <include name="Ctest"/>
+                    <include name="Btest"/>
+                    <include name="test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
